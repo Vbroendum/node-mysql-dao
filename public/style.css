@@ -1,0 +1,28 @@
+:root {
+  color-scheme: light dark;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  margin: 1rem auto;
+  width: 85ch;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+form {
+  margin: 1rem 0;
+}
+
+ul {
+  margin: 1rem 0;
+  padding-left: 1.25rem;
+}
