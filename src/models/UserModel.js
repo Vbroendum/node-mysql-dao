@@ -20,7 +20,7 @@ exports.getUserById = async (id) => {
   return users.find(user => user.id === id);
 }
 
-exports.createUser = async (user) => {
+exports.createUser = async ({ name, email }) => {
   users.push(user);
   return user;
 };
